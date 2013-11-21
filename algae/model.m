@@ -343,7 +343,6 @@ err = [err0; err25; err100];
         
         fq = 1-q/Q;
         muq = muq_m*fq;
-        muq = max([0,muq]);
         mu = min([muq,p/c]);
         
         rho = rho_m*c*mu/p;
